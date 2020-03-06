@@ -1,0 +1,16 @@
+{
+  "name": "mcqnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "\u001b[A\u001b[B"
+  },
+  "author": "atharva chavan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3"
+  }
+}
