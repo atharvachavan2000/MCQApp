@@ -29,13 +29,13 @@ var mcq1 = [{
     optionD: "Option No 4"
 }];
 
-Mcq.create(mcq1 , function(err,mcq1){
+/*Mcq.create(mcq1 , function(err,mcq1){
     if(err){
         console.log(err);
     } else {
         console.log("mcq added");
     }
-})
+})*/
 
 app.get('/',function(req,res){
     Mcq.find({},function(err,mcqs){
